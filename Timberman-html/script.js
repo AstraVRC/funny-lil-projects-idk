@@ -33,7 +33,7 @@ function start(){
         document.getElementById("1 4").style.backgroundColor="#CE3535";
 }
 document.addEventListener("keyup", function(event) {
-    if (event.key === "a") {
+    if (event.key === "a"||event.key==="ArrowLeft") {
         if (document.getElementById("0 3").style.backgroundColor !== "brown"){
             movedown();
             document.getElementById("0 4").style.backgroundColor="blue";
@@ -41,7 +41,7 @@ document.addEventListener("keyup", function(event) {
             fail();
         }
     }
-    if (event.key === "d") {
+    if (event.key === "d"||event.key==="ArrowRight") {
         if (document.getElementById("2 3").style.backgroundColor !== "brown"){
             movedown();
             document.getElementById("2 4").style.backgroundColor="blue";
