@@ -1,9 +1,3 @@
-LeftGen=document.getElementById("0 0");
-RightGen=document.getElementById("2 0");
-LeftCollision=document.getElementById("0 3");
-RightCollision=document.getElementById("2 3");
-LeftP=document.getElementById("0 4");
-RightP=document.getElementById("2 4");
 vstatus="free";
 score=0;
 function fail(){
